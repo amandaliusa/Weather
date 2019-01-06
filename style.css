@@ -1,0 +1,52 @@
+body {
+  font: 16px Verdana, sans-serif;
+}
+
+#weather label {
+  /* Make label stack on top of input */
+  display: block;
+  text-align: center;
+  margin-bottom: 0.1em;
+  font-weight: bold;
+}
+
+#weather input {
+  /* Make input be centered and stack on top of the button */
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+  padding: 0.25em;
+  font-size: 1.1em;
+}
+
+#weather button {
+  display: block;
+  margin: 0 auto;
+  /*
+   * Make a solid border of one pixel width and color #008, and set the
+   * background color to #aaccff
+   */
+  border: 1px solid #008;
+  background-color: #aaccff;
+  padding: 0.5em 2.5em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#response {
+  border: 1px solid #000;
+  margin: 0 auto;
+  /* Make the width of this div only 50% of the screen */
+  width: 50%; 
+  padding: 0.5em;
+}
+
+#location {
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#icon {
+  padding: 0.25em;
+}
